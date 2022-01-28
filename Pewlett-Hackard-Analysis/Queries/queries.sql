@@ -146,3 +146,36 @@ INNER JOIN dept_emp AS de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
+
+SELECT * FROM dept_manager;
+
+SELECT de.emp_no,
+	ri.first_name,
+	ri.last_name,
+	d.dept_name
+INTO sales_dept_employees
+FROM dept_emp as de
+INNER JOIN retirement_info AS ri
+ON (de.emp_no = ri.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE (de.to_date = '9999-01-01')
+	AND (d.dept_name = 'Sales')
+ORDER BY de.emp_no;
+
+SELECT COUNT (emp_no)
+FROM sales_dept_employees;
+
+SELECT de.emp_no,
+	ri.first_name,
+	ri.last_name,
+	d.dept_name
+INTO sales_development_employees
+FROM dept_emp as de
+INNER JOIN retirement_info AS ri
+ON (de.emp_no = ri.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE (de.to_date = '9999-01-01')
+	AND d.dept_name in('Sales','Development')
+ORDER BY de.emp_no;
