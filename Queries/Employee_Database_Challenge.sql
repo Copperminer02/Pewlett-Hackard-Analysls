@@ -58,7 +58,7 @@ WHERE (de.to_date = '9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
-
+SELECT * FROM mentorship_eliginility;
 -- EXTRA Tables for Module Challenge
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 -- Determine how many employees, what department, and what position are ready for retirement
@@ -120,56 +120,52 @@ GROUP BY mt.dept_name,mt.title;
 SELECT * FROM titles_by_dept_mentors;
 
 -- Find total current employees in employees file
-SELECT DISTINCT ON(e.emp_no)e.emp_no,
-	e.birth_date,
+SELECT e.emp_no,
 	t.title,
-	de.dept_no,
-	d.dept_name
-INTO employee_current
+	de.to_date,
+	de.dept_no
+INTO current_titles
 FROM employees AS e
-INNER JOIN dept_emp as de
+JOIN dept_emp as de
 ON e.emp_no = de.emp_no
-INNER JOIN titles AS t
+JOIN titles AS t
 ON e.emp_no = t.emp_no
-INNER JOIN departments AS d
-ON de.dept_no  = d.dept_no
-WHERE (de.to_date = '9999-01-01')
-ORDER BY e.emp_no, de.to_date DESC;
 
-SELECT * FROM employee_current;
+
+
+
+-- Find total current unique employees in employees file
+SELECT DISTINCT ON (c.emp_no) c.emp_no,
+	c.title,
+	c.dept_no,
+	d.dept_name
+INTO unique_current_titles
+FROM current_titles AS c
+INNER JOIN departments AS d
+ON c.dept_no = d.dept_no
+WHERE to_date = '9999-01-01'
+ORDER BY emp_no, to_date DESC;
+
+SELECT * FROM unique_current_titles;
+
 
 -- Sort all current employees by title
 SELECT COUNT(title),
 	title
 INTO all_titles
-FROM employee_current
+FROM unique_current_titles
 GROUP BY title
 ORDER BY count DESC;
 
 SELECT * FROM all_titles;
 
--- Get all current employees with by title and department
-SELECT DISTINCT ON(ec.emp_no) ec.emp_no,
-	ec.title,
-	de.dept_no,
-	d.dept_name
-INTO current_by_title_dept
-FROM employee_current AS ec
-INNER JOIN dept_emp as de
-ON ec.emp_no = de.emp_no
-INNER JOIN departments AS d
-ON de.dept_no = d.dept_no
-ORDER BY ec.emp_no;
-
-SELECT * FROM current_by_title_dept;
-
 -- Sort all current employees by by totals by department and by title
-SELECT ct.dept_name,
-	ct.title,
+SELECT dept_name,
+	title,
 	COUNT(title)
 INTO titles_by_dept_current
-FROM current_by_title_dept AS ct
-GROUP BY ct.dept_name,ct.title;	
+FROM unique_current_titles AS u
+GROUP BY dept_name,title;	
 
 SELECT * FROM titles_by_dept_current;
 
@@ -187,6 +183,7 @@ ON r.title = a.title
 GROUP BY r.title,a.count,r.count
 ORDER BY r.title ASC;
 
+SELECT * FROM titles_mergred;
 -- Merge all tables that combine all employees by title and by deparment
 
 SELECT c.dept_name,
@@ -203,3 +200,5 @@ LEFT JOIN titles_by_dept_mentors AS m
 ON c.dept_name = m.dept_name
 AND c.title = m.title
 ORDER BY c.dept_name ASC;
+
+SELECT * FROM titles_dept_merged;

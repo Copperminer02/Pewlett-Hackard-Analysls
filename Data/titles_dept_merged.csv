@@ -1,46 +1,46 @@
 dept_name,title,all_employees,retiring_employees,mentor_eligible
-Customer Service,Assistant Engineer,22,,
-Customer Service,Engineer,178,,
+Customer Service,Assistant Engineer,209,,
+Customer Service,Engineer,1604,,
 Customer Service,Manager,4,,
-Customer Service,Senior Engineer,54,,
-Customer Service,Senior Staff,9514,2819,64
-Customer Service,Staff,2972,843,21
-Customer Service,Technique Leader,21,,
-Development,Assistant Engineer,5862,517,38
-Development,Engineer,40384,4435,248
+Customer Service,Senior Engineer,672,,
+Customer Service,Senior Staff,10119,2819,64
+Customer Service,Staff,4720,843,21
+Customer Service,Technique Leader,241,,
+Development,Assistant Engineer,4757,517,38
+Development,Engineer,35080,4435,248
 Development,Manager,2,,
-Development,Senior Engineer,11382,12308,87
-Development,Senior Staff,961,329,9
-Development,Staff,287,118,2
-Development,Technique Leader,5787,1684,33
+Development,Senior Engineer,14671,12308,87
+Development,Senior Staff,969,329,9
+Development,Staff,431,118,2
+Development,Technique Leader,5476,1684,33
 Finance,Manager,2,,
-Finance,Senior Staff,10469,3226,61
-Finance,Staff,3161,973,13
+Finance,Senior Staff,8593,3226,61
+Finance,Staff,3842,973,13
 Human Resources,Manager,2,,
-Human Resources,Senior Staff,9425,2825,73
-Human Resources,Staff,2963,881,19
+Human Resources,Senior Staff,8825,2825,73
+Human Resources,Staff,4071,881,19
 Marketing,Manager,2,,
-Marketing,Senior Staff,12016,3701,104
-Marketing,Staff,3778,1115,22
-Production,Assistant Engineer,5069,467,33
-Production,Engineer,35841,3975,208
+Marketing,Senior Staff,10115,3701,104
+Marketing,Staff,4725,1115,22
+Production,Assistant Engineer,4000,467,33
+Production,Engineer,30245,3975,208
 Production,Manager,4,,
-Production,Senior Engineer,10196,11256,73
-Production,Senior Staff,1013,390,6
-Production,Staff,324,99,1
-Production,Technique Leader,5127,1597,35
-Quality Management,Assistant Engineer,1073,106,7
-Quality Management,Engineer,7860,875,45
-Quality Management,Manager,4,,
-Quality Management,Senior Engineer,2277,2352,9
-Quality Management,Technique Leader,1079,322,9
-Research,Assistant Engineer,31,,
-Research,Engineer,204,,
+Production,Senior Engineer,12863,11256,73
+Production,Senior Staff,1016,390,6
+Production,Staff,456,99,1
+Production,Technique Leader,4720,1597,35
+Quality Management,Assistant Engineer,1107,106,7
+Quality Management,Engineer,8548,875,45
+Quality Management,Manager,3,,
+Quality Management,Senior Engineer,3597,2352,9
+Quality Management,Technique Leader,1291,322,9
+Research,Assistant Engineer,270,,
+Research,Engineer,1983,,
 Research,Manager,2,1,
-Research,Senior Engineer,77,,
-Research,Senior Staff,9216,2834,62
-Research,Staff,2896,880,20
-Research,Technique Leader,34,,
+Research,Senior Engineer,904,,
+Research,Senior Staff,8072,2834,62
+Research,Staff,3889,880,20
+Research,Technique Leader,321,,
 Sales,Manager,2,1,
-Sales,Senior Staff,29408,8802,190
-Sales,Staff,9139,2727,57
+Sales,Senior Staff,25796,8802,190
+Sales,Staff,11903,2727,57
