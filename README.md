@@ -14,7 +14,7 @@ Pewlett Hackard is reviewing the effect of upcoming retirees.  They have a reque
   4. **Data/retiring_titles.csv** - list of all ***current*** employees by their ***currrent titles*** with brith dates between January 1, 1952 and December 31, 1955.
   5. **Data/mentorship_eligibility.csv** - list of all ***current*** employees by their ***currrent titles*** with brith dates between January 1, 1965 and December 31, 1965.
   6. **Data/titles_merged.csv** - combined table for comparing all current employees on file compared to retirees and mentor eligible by title.
-  7. **titles_dept_merged.csv** - combined table for all current employees, retiring, and mentor eligible by department and title.
+  7. **Data/titles_dept_merged.csv** - combined table for all current employees, retiring, and mentor eligible by department and title.
   
 ### Data Results
 
