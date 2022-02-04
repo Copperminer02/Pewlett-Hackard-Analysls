@@ -42,8 +42,9 @@ Pewlett Hackard is reviewing the effect of upcoming retirees.  They have a reque
 
 ![image](https://user-images.githubusercontent.com/91850824/152469944-6cad2c1f-bb09-44f6-88ec-6c1fba830606.png)
 
-![image](https://user-images.githubusercontent.com/91850824/152469963-f379ceb0-1df2-415a-af8e-b9d3fe895ee2.png)
+
+![image](https://user-images.githubusercontent.com/91850824/152472725-477e20ce-b475-4ae4-9291-fd8ab2344740.png)
 
 
- Reviewing the list areas like Production- Senior Engineers will lose 11256 of 37156 Senior Engineers on file, with only 233 in the mentor category.  The spread of talent appears to be there; however, 30% of your workforce is hard to replace.  The 240,124  employees on file are all over 56 years of age.  I would reccomend expanding the mentor critieria beyond 1965.  It doesn't look like the retiring class will wipe out any one department.
+The spread of talent appears to be there; however, 30% of your workforce is hard to replace.  The 240,124  employees on file are all over 56 years of age.  I would reccomend expanding the mentor critieria beyond 1965.  It doesn't look like the retiring class will wipe out any one department.
 
