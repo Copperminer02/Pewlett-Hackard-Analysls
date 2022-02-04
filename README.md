@@ -28,21 +28,22 @@ Pewlett Hackard is reviewing the effect of upcoming retirees.  They have a reque
   3. Development (19,391 employees) and Production (17,784 employees) will be the hardest hit by retirement.  The 2 departments represent 50% of the retiring force.
   4. Current Employees with brith dates between January 1, 1965 and December 31, 1965 total 1549 employees only 2% of retiring class.
   5. Mentorship Eligible Employees hold all the same titles as those retiring with the exception of 2 manager positions.
-    ![image](https://user-images.githubusercontent.com/91850824/151905541-2ddb0e90-f0f0-4666-b1ed-29f6c025937b.png)
+   ![image](https://user-images.githubusercontent.com/91850824/152469237-b7b59828-33c7-4fa0-8469-75e58f0f6db2.png)
+
 
  ## Summary
  
   1.  There were 240,124 current employees in the employees.csv data resource.  There are 72,458 employees born between January 1, 1952 and December 31, 1955.
   
-  ![image](https://user-images.githubusercontent.com/91850824/151910190-cca1413e-8e76-49a1-baa8-86cf270235d1.png)
+  ![image](https://user-images.githubusercontent.com/91850824/152469454-ee1f652d-8e3b-4140-aba6-440f5847c87f.png)
 
   
-  2.  Looking at the mentor eligible employees; although they number 2% of the retiring force, they do appear to cover all areas (with the exception of 2 Manager titles).  Proportionately, the mentor eligible employees appear to mirror the retiring employees; however, the Senior Engineer level appears to be lagging, but there are employees for every title.  To further show coverage, a table was constructed by department and title.  Again the mentor eligible have full coverage across all departments and all titles except manager compared to the retiring employee column.  I would reccomend studying the employee comparison against all departments and titles.  Employees called Engineer would not necessarily make effective trainers in other departments.   
+  2.  Looking at the mentor eligible employees; although they number 2% of the retiring force, they do appear to cover all areas (with the exception of 2 Manager titles).  Proportionately, the mentor eligible employees appear to mirror the retiring employees.  To further show coverage, a table was constructed by department and title.  Again the mentor eligible have full coverage across all departments and all titles except manager compared to the retiring employee column.  I would reccomend studying the employee comparison against all departments and titles.  Employees called Engineer would not necessarily make effective trainers in other departments.   
 
-![image](https://user-images.githubusercontent.com/91850824/151910200-4a86f901-ff1a-44ee-8c8b-030eeb6d26a4.png)
+![image](https://user-images.githubusercontent.com/91850824/152469944-6cad2c1f-bb09-44f6-88ec-6c1fba830606.png)
 
-![image](https://user-images.githubusercontent.com/91850824/151910499-3ddd85e0-491b-48d2-bb02-99a682771a54.png)
+![image](https://user-images.githubusercontent.com/91850824/152469963-f379ceb0-1df2-415a-af8e-b9d3fe895ee2.png)
 
- Reviewing the list areas like Production- Senior Engineers will lose 11256 of 12863 Senior Engineers on file, with only 9 in the mentor category.  Likewisee with Development
-Senior Engineers 14671 on staff 12308 leaving, 87 mentor eligible.  The spread of talent appears to be there; however, 30% of your workforce is hard to replace.  The 240,124    employees on file are all over 56 years of age.  I would reccomend expanding the mentor critieria beyond 1965.
+
+ Reviewing the list areas like Production- Senior Engineers will lose 11256 of 37156 Senior Engineers on file, with only 233 in the mentor category.  The spread of talent appears to be there; however, 30% of your workforce is hard to replace.  The 240,124  employees on file are all over 56 years of age.  I would reccomend expanding the mentor critieria beyond 1965.  It doesn't look like the retiring class will wipe out any one department.
 
